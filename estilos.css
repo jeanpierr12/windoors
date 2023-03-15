@@ -1,49 +1,51 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0%;
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
 }
-body{
-    text-align: center;
-    font-family: sans-serif;
+
+body {
+  text-align: center;
+  font-family: sans-serif;
 }
 
 
 .head {
   display: flex;
   justify-content: center;
-  align-items: space-between; 
+  align-items: space-between;
   height: 63px;
   background: #171717;
   position: fixed;
   width: 100%;
   z-index: 100;
 }
+
 .navbar {
   display: flex;
   margin-right: 10px;
 }
 
-.LOGO{
+.LOGO {
   margin-left: 30px;
 }
 
 .LOGO a {
-   text-decoration: none;
-   color: #fff;
-   text-transform: uppercase;
-   font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .navbar a {
-   display: block;
-   padding: 20px 20px;
-   color: #fff;
-   text-decoration: none;
-   text-transform: uppercase;
-   font-size: 20px;
+  display: block;
+  padding: 20px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
 
 }
 
@@ -55,14 +57,14 @@ body{
 .header {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 
 }
 
 .header {
-    height: 60vh !important;
-    background: url(http://4.bp.blogspot.com/-WbKfKGQy3Yg/UWQ0FLQzppI/AAAAAAAAlh4/fc6N66pT_qA/s1600/casa-elegante-color-negro.jpg) no-repeat center;
-    background-size: cover;
+  height: 60vh !important;
+  background: url(http://4.bp.blogspot.com/-WbKfKGQy3Yg/UWQ0FLQzppI/AAAAAAAAlh4/fc6N66pT_qA/s1600/casa-elegante-color-negro.jpg) no-repeat center;
+  background-size: cover;
 
 }
 
@@ -73,129 +75,167 @@ body{
   text-transform: uppercase;
   color: #fff;
 }
- 
+
 p {
-   margin-bottom: 40 px;
-   font-size: 35px;
-   color: #f3f3fc;
-   padding: 0 100px;
+  margin-bottom: 40 px;
+  font-size: 35px;
+  color: #f3f3fc;
+  padding: 0 100px;
+
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #e2e1ea;
+  color: #fff;
+  text-decoration: none;
+  background: #371cd3;
+}
+
+.btn:hover {
+  background: none;
+}
+
+.btn-home {
+  display: flex;
+}
+
+.btn-home a {
+  margin: 0 10px;
+
+}
+
+.content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sau {
+  padding: 30px;
+  background: #1f1d1d;
+
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background: #101010;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+  margin: 2rem;
+
+}
+
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #371cd3;
+  font-size: 2rem;
+  margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: #371cd3;
+}
+
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16px;
+
+}
+
+.about {
+  background: #171717;
+}
+
+.price {
+  background: url(https://i.pinimg.com/originals/96/8b/84/968b8466f510cb7f31101885a8103b69.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+
+}
+
+.contact {
+  padding-top: 20px;
+  background: #171717;
+  padding-bottom: 0%;
+}
+
+@media (max-width: 768px)´ {
+
+  .title {
+    margin-bottom: 0;
+    font-size: 40px;
 
   }
 
-  .btn {display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #e2e1ea;
-    color: #fff;
-    text-decoration: none;
-    background: #371cd3;
-   }
-   .btn:hover{
-    background: none;
-   }
-  
-   .btn-home {
-    display: flex;
-   }
-   .btn-home a{
-     margin: 0 10px;
-
-   }
-
-   .content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
-
-   .sau {
-    padding: 30px;
-    background:#1f1d1d;
-    
-   }
-
-   .box-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      text-align: center;
-
-   }
-
-   .box-container .box {
-    height: 11rem;
-    width: 17rem;
-    background: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
-    margin: 2rem;
-   
+  .sau {
+    height: 120vh;
   }
 
-
-  .box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #371cd3;
-    font-size: 2rem;
-    margin: 1rem 0;
-
+  .navbar {
+    display: none;
   }
 
-  .box-container .box h3 {
-    font-size: 20px;
-    color: #371cd3;
-  }
-
-  .box-container .box p {
-    padding: 0 15px;
-    font-size: 16px;
-
-  }
-  .about {
-    background: #171717;
-  }
-
-  .price {
-    background: url(https://i.pinimg.com/originals/96/8b/84/968b8466f510cb7f31101885a8103b69.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-  
-  }
-  .contact{
-    padding-top: 20px;
-    background: #171717;
-    padding-bottom: 0%;
- }
-
- @media  (max-width: 768px){
-
-         .title{
-          margin-bottom: 0;
-          font-size: 40px;
-        
-         }
-         .sau{
-          height: 120vh;
-         }
-         .navbar {
-          display: none ;
-         }
-
-  
- }
- 
+}
 
 
+/* external css: flickity.css */
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: sans-serif;
+}
 
+/* prevent vertical scroll bar glitch */
+html {
+  overflow-y: scroll;
+}
 
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
